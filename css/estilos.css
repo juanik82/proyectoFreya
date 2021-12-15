@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: o;
+}
+
+.gridContainer{
+    grid-template-areas:
+    "header header header header header header"
+    ". nav nav nav nav ."
+    ". main main main main ."
+    "footer footer footer footer footer footer";
+
+    /* grid-template-columns: 
+    grid-template-rows:  */
+
+
+}
+
+.border{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.header{
+    grid-area: header;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.main{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: footer;
+}
