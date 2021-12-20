@@ -165,13 +165,14 @@ nav {
 
 /* .seccion__h2--centrado {
     /* margin-left: 45%; */
-/* } */ */
+
 
 .seccion__h3 {
     font-family: 'Lato', sans-serif;
     margin: 5px 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .seccion__h4 {
@@ -321,7 +322,7 @@ td {
     margin-bottom: 20px;
     margin-top: 6px;
     height: auto;
-    width: 200px;
+    width: 170px;
     margin-right: 15px;
     
 
@@ -430,11 +431,42 @@ textarea {
 
 
 .item {
+    
     height: auto;
     width: auto;
     border: 1px solid black;
     text-align: center;
     padding-top: 5%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:  center;
+    vertical-align: middle;
+}
+
+
+.item4{
+    background-image: url(../images/serum.jpg);
+}
+
+.item7{
+    background-image: url(../images/crema-masaje.jpg);
+}
+
+.item10 {
+    background-image: url(../images/descongestivo.jpg);
+}
+
+.item13{
+    background-image: url(../images/flesh.jpg);
+}
+
+.item16{
+    background-image: url(../images/reafirmante.jpg);
+}
+
+.item19{
+    background-image: url(../images/suero.jpg);
 }
 
 .item123 {
@@ -449,6 +481,8 @@ textarea {
 .itemAlignVertical {
     padding-top: 65%;
 }
+
+
 
 /* FIN GRID PRODUCTOS */
 
@@ -585,13 +619,14 @@ textarea {
         align-items: center;
         margin-top: 15px;
         margin-bottom: 15px;
+    } 
+
+
+    .divHeader header {
+        display: flex;
+        flex-wrap: wrap;
     }
-
-
-    /* .divHeader header {
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-    } */
+    
 
     .header__logo {
         height: 170px;
@@ -604,12 +639,12 @@ textarea {
         font-family: 'Lato', sans-serif;
         margin-left: 50px;
         /* border-style: solid;
-        border-color: black;
-        border-width: 1px; */
-        /* margin-left: 400px; */
-        /* text-align: center; */
+        border-color: black; */
+        /* border-width: 1px;  */
+        /* margin-left: 400px;  */
+        text-align: left; 
         padding: 5px 5px;
-    }
+    } 
 
     /* FIN HEADER */
 
@@ -683,15 +718,15 @@ textarea {
         flex-direction: column;
         gap: 20px;
         justify-content: center;
-        /* align-items: center; */
+        align-items: center; 
         margin-top: 60px;
-        /* margin-bottom: 60px; */
+        margin-bottom: 60px; 
         background-color: #f2f2f2;
-    }
+    } 
 
     .seccion__mapa {
         width: 100%;
-    }
+    }  
 
 
 
@@ -700,9 +735,9 @@ textarea {
         font-weight: lighter;
         margin: 5px 5px;
         font-size: 24pt;
-        /* margin: 20px; */
+        margin: 20px;
         padding: 15px;
-    }
+    }  
 
     .seccion__h2 {
         font-family: 'Satisfy', cursive;
@@ -714,17 +749,17 @@ textarea {
     .seccion__h2--mq {
         font-size: 25px;
     }
-/* 
-    .seccion__h2--centrado {
-        /* margin-left: 20%; */
-    /* } */
+
+    /* .seccion__h2--centrado {
+        margin-left: 20%;
+    }  */
 
     .seccion__h3 {
         font-family: 'Lato', sans-serif;
         margin: 5px 5px;
         margin-top: 10px;
-        margin-bottom: 10px;
-    }
+        margin-bottom: 10px; 
+     } 
 
     .seccion__h4 {
         font-family: 'Lato', sans-serif;
@@ -750,7 +785,7 @@ textarea {
     }
 
     .seccion {
-        /* margin: 25px; */
+        margin: 25px;
         padding: 25px;
     }
 
@@ -777,8 +812,8 @@ textarea {
     }
 
     .seccion__pComun--testimonios {
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+        margin-left: auto;
         margin-top: 15px;
         font-style: italic;
 
@@ -788,13 +823,18 @@ textarea {
         background-color: #f2f2f2;
         text-align: center;
         justify-content: center;
-        width: 100%;
+        width: 80%;
+        justify-self: center;
+        justify-items: center;
+        margin-left: 10%;
     }
 
 
 
     .seccion--testimonios--trat {
         padding: 20px;
+        justify-content: center;
+        margin-left: 10%;
 
     }
 
@@ -842,11 +882,6 @@ textarea {
 
     }
 
-
-
-
-
-
     .aside p {
         font-family: 'Lato', sans-serif
     }
@@ -865,6 +900,7 @@ textarea {
     .tabla__textos {
         font-family: 'Lato', sans-serif;
         padding: 5px;
+        
     }
 
     td {
@@ -876,11 +912,10 @@ textarea {
 
     .img--trat {
         border-radius: 30px 0 0 0;
-        /* margin-left: 30px; */
         margin-bottom: 20px;
-        /* margin-right: 10px; */
+        margin-right: 10px;
         margin-top: 6px;
-        margin-left: 18%;
+       
     }
     
    
@@ -892,10 +927,10 @@ textarea {
 
     form {
         background-color: rgba(27, 155, 172, 0.185);
-        /* border: 1px solid black; */
+        border: 1px solid black; 
         margin: 15px;
         padding: 10px;
-    }
+    } 
 
     legend {
         font-family: 'Lato', sans-serif;
@@ -911,19 +946,20 @@ textarea {
     .input {
         margin: 10px;
         padding: 10px;
-    }
+    } 
 
     .label {
         margin-left: 10px;
         font-family: 'Lato', sans-serif;
-    }
+    } 
 
     .img--nosotras {
         border-radius: 3px;
         width: 200px;
         height: auto;
         margin-bottom: 10px;
-        margin-left: 17%;
+        margin-left: auto;
+        
 
     }
 
@@ -932,6 +968,7 @@ textarea {
         display: flex;
         flex-direction: column;
         text-align: center;
+       
     }
 
     .articulo__pComun--nosotras {
@@ -954,7 +991,7 @@ textarea {
     .cuerpoPrincipal section article {
         display: flex;
         flex-direction: column;
-    }
+    } 
 
   
 
@@ -964,15 +1001,15 @@ textarea {
 
     .h2aside {
         grid-area: h2aside;
-    }
+    } 
 
     .imgAside {
         grid-area: imgAside;
-    }
+    } 
 
     .pAside {
         grid-area: pAside;
-    }
+    } 
 
 
     .giftCardContainer {
@@ -996,45 +1033,91 @@ textarea {
     .imgAside {
         width: 60%;
         margin-left: 20%;
-    }
+    } 
 
     /* GRID PRODUCTOS */
 
-    .cuadroPrecios {
-        height: auto;
-        width: auto;
-        background-color: white;
-        display: grid;
-        grid-template-columns: 192px 192px 192px;
-        grid-template-rows: 40px 304px 304px 304px 304px 304px 304px;
-        gap: 3px;
-        margin-left: 50px;
-        margin-bottom: 50px;
-    }
+.cuadroPrecios {
+    height: auto;
+    width: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    grid-template-rows: 40px 180px 180px 180px 180px 180px 180px;
+    gap: 3px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
 
 
-    .item {
-        height: auto;
-        width: auto;
-        border: 1px solid black;
-        text-align: center;
-        padding-top: 5%;
-    }
 
-    .item123 {
-        height: auto;
-        width: auto;
-        border: 1px solid black;
-        text-align: center;
-        padding-top: 2%;
+.item {
+    
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 5%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 90%;
+    
+}
 
-    }
+.tabla__texto--mq {
+    font-size: 12px;
+}
 
-    .itemAlignVertical {
-        padding-top: 65%;
-    }
+.tabla__texto--mq2 {
+    font-size: 9px !important;
+}
 
-    /* FIN GRID PRODUCTOS */
+
+.item4{
+    background-image: url(../images/serum.jpg);
+}
+
+.item7{
+    background-image: url(../images/crema-masaje.jpg);
+}
+
+.item10 {
+    background-image: url(../images/descongestivo.jpg);
+}
+
+.item13{
+    background-image: url(../images/flesh.jpg);
+}
+
+.item16{
+    background-image: url(../images/reafirmante.jpg);
+}
+
+.item19{
+    background-image: url(../images/suero.jpg);
+}
+
+.item123 {
+    display: flex;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 2%;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.itemAlignVertical {
+    padding-top: 65%;
+}
+
+
+
+/* FIN GRID PRODUCTOS */
 
 
 
@@ -1049,12 +1132,12 @@ textarea {
         display: flex;
         flex-wrap: wrap;
 
-    }
+    } 
 
     .footer {
 
-        /* background-color: #34bfb154; */
-        /* margin-top: 20px; */
+        background-color: #34bfb154; 
+        margin-top: 20px;
         font-family: 'Playfair Display', serif;
         font-size: 85%;
         padding: 10px 25px;
@@ -1062,7 +1145,7 @@ textarea {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        
+         
 
     }
 
@@ -1070,13 +1153,13 @@ textarea {
         width: 20px;
         display: block;
         margin: 4px;
-    }
+    } 
 
     .footer__a {
         color: black;
         text-decoration: none;
 
-    }
+    } 
 
     .footer__a:hover {
         color: blue;
@@ -1105,7 +1188,7 @@ textarea {
     .footer__tablaContacto tr td {
         padding: 1px;
         border: 0;
-        padding-left: 0%;
+        padding-left: 0%; 
     }
 
     .footer__div {
@@ -1123,4 +1206,6 @@ textarea {
 
     #navSecundaria ul{
      padding-left: 0%;
-    }
+    }  
+
+}
