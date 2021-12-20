@@ -1,30 +1,203 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Home</title>
+    <link rel="shortcut icon" href="/images/logo_freya_mini.png">
 </head>
+
 <body>
-    <div class="gridContainer">
+    <div class="containerBody">
 
-        <header class="header">
-            header
-        </header>
+        <div class="divHeader">
+            <header class="header">
+                <a href="#">
+                    <img src="./images/logo_freya.png" alt="logo freya" class="header__logo">
+                </a>
 
-        <nav class="nav"></nav>
+                <h1 class="header__h1">Freya - Centro de Estética Integral</h1>
+            </header>
+        </div>
 
-        <main class="main border">
+        <div class="divNav">
 
-        </main>
+            <nav class="nav">
 
-        <footer class="footer">
+                <ul class="nav__lista">
+                    <li class="nav__li"><a href="#" class="nav__a">Home</a></li>
+                    <li class="nav__li"><a href="./secciones/nosotros.html" class="nav__a">Nosotras</a></li>
+                    <li class="nav__li"><a href="./secciones/tratamientos.html" class="nav__a">Tratamientos</a></li>
+                    <li class="nav__li"><a href="./secciones/productos.html" class="nav__a">Productos</a></li>
+                    <li class="nav__li"><a href="./secciones/contacto.html" class="nav__a">Contacto</a></li>
+                </ul>
 
-        </footer>
-      
+            </nav>
+
+        </div>
+
+        <div class="divMain">
+
+            <main class="cuerpoPrincipal">
+                <!-- texto de bienvenida con imagen -->
+                <section class="seccion--flex">
+
+                    <img src="images/foto01.jpg" alt="¡Bienvenidos!" class="seccion__img--fotoBienvenidos">
+
+                    <p class="seccion__pComun">
+                        <strong>¡Bienvenidos!</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+                        atque
+                        doloribus consequuntur quis cum ullam. At possimus unde obcaecati repellendus consequuntur atque
+                        voluptatibus perferendis, repudiandae, aliquid velit distinctio autem explicabo.
+                        Nulla pariatur quisquam aut corporis laborum fuga iusto saepe rem ducimus! Dolorum quos tempora
+                        omnis
+                        aut. Et sequi deserunt enim, ut, error distinctio hic ipsum sit iure quaerat pariatur non.
+                    </p>
+
+                </section>
+
+                <!-- Testimonios -->
+                <section class="seccion seccion--testimonios ">
+                    <h2 class="seccion__h2 seccion__h2--centrado">Testimonios</h2>
+                    <p class="seccion__pComun seccion__pComun--testimonios">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit. Ipsam, iusto. Enim voluptas animi sapiente,
+                        similique, ipsam voluptatem impedit, quidem sed atque illum vitae. Recusandae laborum alias
+                        tenetur
+                        consectetur architecto cupiditate? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Tenetur quis exercitationem asperiores distinctio sed qui reprehenderit accusamus tempore nam
+                        modi!
+                    </p>
+
+                </section>
+
+                <!-- Descuentos -->
+                <section class="seccion--flex">
+                    <article class="seccion__descuentos">
+                        <!-- títulos -->
+                        <h2 class="seccion__h2 seccion__h2--mq">¡Descuentos imperdibles pagando en efectivo!</h2>
+                        <h3 class="seccion__h3">Encontrá las mejores promociones en:</h3>
+                        <!-- imágenes -->
+                        <div>
+                            <a href="#"><img src="images/facebook.png" alt="Facebook Freya"
+                                    class="seccion__img--redes"></a>
+                            <a href="#"><img src="images/instagram.png" alt="Instagram Freya"
+                                    class="seccion__img--redes"></a>
+                        </div>
+                    </article>
+
+
+
+                    <!-- gift card -->
+                    <!-- hacer un grid y agregar un parrafo al costado derecho -->
+
+                    <aside class="seccion__descuentos seccion__descuentos--tarjeta aside giftCardContainer">
+                        <h2 class="seccion__h2 h2aside h2aside-mq">Adquirí tu Gift Card</h2>
+                        <img src="images/gift-card.jpg" alt="Gift Card Freya" class="seccion__img--giftCard imgAside">
+                        <p class="pAside">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, laborum
+                            libero minus cumque quis consectetur ducimus quasi velit illum corporis animi,
+                            consequuntur cum facere ipsam.</p>
+                    </aside>
+
+                </section>
+
+
+                <!--Ubicación + mapa  -->
+                <section class="seccion  seccion--mapa">
+                    <h4 class="seccion__h4">¿Dónde estamos?</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.326000641964!2d-58.44445518423652!3d-34.62120116593148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca38e80c68c3%3A0x10d987287b70680a!2sRivadavia%205474%2C%20C1424%20CABA!5e0!3m2!1ses!2sar!4v1637786481972!5m2!1ses!2sar"
+                        width="1300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        class="seccion__mapa"></iframe>
+                </section>
+            </main>
+
+        </div>
+
+        <!-- INICIO FOOTER -->
+
+        <div class="divFooter">
+
+            <footer class="footer">
+
+                <div class="footer__div">
+                    <p p class="footer__p">Nuestras redes sociales</p>
+                    <div class="footer__div footer__div--redes">
+                        <a href="#"><img src="images/facebook.png" alt="facebook Freya" class="footer__img"></a>
+                        <a href="#"><img src="images/instagram.png" alt="instagram Freya" class="footer__img"></a>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!-- links enlaces de interés -->
+                <div class="footer__div">
+                    <nav id="navSecundaria">
+                        <ul class="footer__ul">
+                            <li><a href="#" class="footer__a">Home</a></li>
+                            <li><a href="./secciones/nosotros.html" class="footer__a">Nosotras</a></li>
+                            <li><a href="./secciones/tratamientos.html" class="footer__a">Tratamientos</a></li>
+                            <li><a href="./secciones/productos.html" class="footer__a">Productos</a></li>
+                            <li><a href="./secciones/contacto.html" class="footer__a">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+
+
+
+
+                <!-- Datos de contacto -->
+
+                <div class="footer__div">
+
+                    <table class="footer__tablaContacto">
+
+                        <!-- <tr>
+                            <td></td>
+                            <th><h3 class="footer__h3">Datos de contacto</h3></th>
+                            
+                        </tr> -->
+
+
+                        <tr>
+                            <td><img src="images/pin.png" alt="Dirección Freya" class="footer__img"></td>
+                            <td>
+                                <p class="footer__p">Primera Junta 4379 2° D - Capital Federal</p>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td><img src="images/phone-call.png" alt="Teléfono Freya" class="footer__img"></td>
+                            <td>
+                                <p class="footer__p">11-1214-4578</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="images/email.png" alt="Email Freya" class="footer__img"></td>
+                            <td>
+                                <p class="footer__p">info@freya.com</p>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </footer>
+
+        </div>
+        <!-- FIN FOOTER -->
+
     </div>
-    
+
 </body>
+
 </html>
