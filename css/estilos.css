@@ -890,12 +890,18 @@ textarea {
     /* TABLA */
 
     .tabla {
+        width: 90%;
+        display: block;
+        overflow-x: auto;
         border: 1px solid rgb(66, 167, 133);
-        margin-left: 50px;
         margin-bottom: 30px;
         padding: 5px;
         border-radius: 5px;
+        margin-left: 5%;
+        margin-right: 10%;
     }
+
+   
 
     .tabla__textos {
         font-family: 'Lato', sans-serif;
