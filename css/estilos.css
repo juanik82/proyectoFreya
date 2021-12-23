@@ -787,7 +787,7 @@ textarea {
     }
 
     .seccion {
-        margin: 25px;
+        /* margin: 25px; */
         padding: 25px;
     }
 
@@ -797,7 +797,7 @@ textarea {
         border-color: black;
         border-width: 1px;
         padding: 10px;
-        width: 100;
+        width: 100%;
         text-align: justify;
         margin-bottom: 10px;
         border-radius: 3px;
@@ -825,19 +825,26 @@ textarea {
         background-color: #f2f2f2;
         text-align: center;
         justify-content: center;
-        width: 80%;
+        width: 100%;
         justify-self: center;
         justify-items: center;
-        margin-left: 10%;
+        /* margin-left: 10%; */
     }
 
 
 
     .seccion--testimonios--trat {
+        width: 100%;
         padding: 20px;
-        justify-content: center;
-        margin-left: 10%;
+        justify-content: auto;
+      
+        /* margin-left: 10%; */
 
+    }
+
+    .seccion--testimonios--nosotras {
+        width: 100%;
+        justify-content: center;
     }
 
 
@@ -971,11 +978,15 @@ textarea {
 
     }
 
+  
 
     .articulo--nosotras {
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin-left: auto;
+        
+        
        
     }
 
@@ -984,6 +995,8 @@ textarea {
         /* margin-left: 5%; */
         margin-top: 15px;
         margin-bottom: 50px;
+        
+        
 
     }
 
